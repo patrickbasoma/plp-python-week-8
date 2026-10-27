@@ -1,0 +1,36 @@
+cat > toolkit_plan.txt <<'EOF'
+PERSONAL MINI-TOOLKIT PLAN
+
+1. TOOLS
+
+Tool 1: Simple Calculator
+This tool allows the user to add, subtract, multiply, and divide two numbers.
+Concepts: functions, input, float conversion, conditionals, try/except, and f-strings.
+
+Tool 2: To-Do List
+This tool allows the user to add, view, and remove tasks while the program is running.
+Concepts: lists, loops, conditionals, input, and f-strings.
+
+Tool 3: Even or Odd Checker
+This tool asks the user for a whole number and determines whether it is even or odd.
+Concepts: integer conversion, the modulo operator (%), conditionals, try/except, and f-strings.
+
+2. EXACT MAIN MENU TEXT
+
+=== PERSONAL MINI-TOOLKIT ===
+1. Simple Calculator
+2. To-Do List
+3. Even or Odd Checker
+4. Quit
+Enter your choice (1-4):
+
+3. PROGRAM DESIGN
+
+The program will display a welcome message when it starts.
+A while loop will keep showing the menu until the user chooses Quit.
+If, elif, and else statements will route choices to the correct tool.
+Invalid choices will display a polite message without crashing.
+The to-do list will use a list that changes as tasks are added or removed.
+Each tool will have a comment explaining its purpose.
+The program will display a friendly goodbye message when the user quits.
+EOF
